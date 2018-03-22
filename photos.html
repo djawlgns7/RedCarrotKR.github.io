@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<link rel="stylesheet" href="myblog.css">
+</head>
+<body>
+	<section class="photos">
+		<hgroup>
+			<h1>Photos</h1>
+			<h2>My photos...</h2>
+		</hgroup>
+		<article class="photo_list">
+			<article>
+				<a href="photo1.jpg" target="_blank">
+					<p>Photo1</p>
+					<figure>
+						<img src="photo1.jpg" alt="photo1">
+						<figcaption>a night view</figcaption>
+					</figure>
+				</a>
+			</article>
+			<article>	
+				<a href="photo2.jpg" target="_blank">
+					<p>Photo2</p>
+					<figure>
+						<img src="photo2.jpg" alt="photo2">
+						<figcaption>a sea mew</figcaption>
+					</figure>
+				</a>
+			</article>
+			<article>	
+				<a href="photo3.jpg" target="_blank">
+					<p>Photo3</p>
+					<figure>
+						<img src="photo3.jpg" alt="photo2">
+						<figcaption>a ship</figcaption>
+					</figure>
+				</a>
+			</article>
+		</article>
+	</section>
+</body>
+<script>
+	document.body.scrollIntoView(true);
+	parent.document.all.main_content.height = document.body.scrollHeight + 20; 
+</script> 
+</html>
+

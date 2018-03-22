@@ -1,0 +1,176 @@
+* {
+	/*border: 1px solid red;*/
+}
+header, section, nav, article, aside, footer {
+}
+
+body {
+	margin: 10px;
+}
+body > header {
+	width: 100%;
+	height: 120px;
+	background-color: #CCFFFF;
+
+	display: block;
+	overflow: hidden;
+}
+body > nav {
+	width: 100%;
+	height: 50px;
+	background-color: #CCFFCC;
+
+	display: block;
+	overflow: hidden;
+}
+body > article.maincontent {
+	width: 80%;
+	/*height: 600px;*/			
+	background-color: #E6EBE6;
+
+	display: inline;
+	float:left;
+	overflow: hidden;
+}		
+body > aside {
+	width: 20%;
+	height: 400px;
+	background-color: #FFD5D5;
+
+	display: inline;
+	float:left;
+	overflow: hidden;
+}
+body > footer {
+	width: 100%;
+	height: 50px;
+	background-color: #CCFFFF;
+	text-align: center;			
+
+	display: block;			
+	overflow: hidden;
+}
+
+/*body > article.maincontent > section.photos*/ section.photos {
+	display: inline;
+	overflow: auto;
+}
+
+/*body > article.maincontent > section.wb*/ section.wb {
+	display: inline;
+	overflow: auto;
+}
+
+body > div.remote {
+	width: 50px;
+	height: 20px;
+	background-color: #FFFF00;
+
+	position: fixed;
+	right: 0px;
+	bottom: 0px;
+	z-index: 10;
+
+	opacity: 0.5;
+}
+
+/*
+section.photos > article {
+display:inline;
+overflow: auto;
+}
+*/
+
+h1, h2, span, p, article > header {
+	margin: 10px;
+}
+
+body > aside ul {			
+	padding-left: 15px;
+}
+
+nav {
+	text-align: right;
+}
+
+nav > ul > li {
+	top: 20%; 
+	left: 10%; 
+	margin: 10px;
+	list-style: none; 
+	display: inline;
+}
+
+.maincontent {
+
+}
+
+.photos {
+	float: none;
+}
+
+.photo_list > article {
+	float: left;
+}
+
+.photo_list > article > a > figure img {
+	/* .photos_list img */
+	width: 100px;
+	height: 80px;
+}
+
+hr {
+	width: 100%;
+}
+
+.wb {
+	float: none;
+	clear: both;
+}
+
+aside > article > ul {
+	list-style-type: none;
+}
+
+footer > address {
+	margin: 10px;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:link, a:visited {
+	color:#000000;
+}
+
+a:hover {
+	color:#ff0000;
+}
+
+a:active {
+	color:#00ffff;
+}
+
+aside > article > ul a:link {
+	color:#000000;
+}
+
+aside > article > ul a:visited {
+	color:#000000;
+}
+
+aside > article > ul a:hover {
+	color:#ff0000;
+}
+
+aside > article > ul a:active {
+	color:#00ffff;
+}
+
+iframe {
+	border: 0px;
+	width: 100%;	
+	margin:0px;
+	min-height: 395px;
+}
